@@ -169,18 +169,26 @@
                                 <state key="normal" title="Button"/>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Smack" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mnp-fM-uyR">
-                                <rect key="frame" x="99" y="68" width="177.5" height="76.5"/>
-                                <fontDescription key="fontDescription" type="system" weight="thin" pointSize="64"/>
+                                <rect key="frame" x="95" y="68" width="186" height="76.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="64"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chat Code Collaborate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s2F-jn-fLh">
+                                <rect key="frame" x="100.5" y="136.5" width="174" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="s2F-jn-fLh" firstAttribute="top" secondItem="Mnp-fM-uyR" secondAttribute="bottom" constant="-8" id="6Zv-Fe-taK"/>
                             <constraint firstItem="iCY-wS-5L2" firstAttribute="bottom" secondItem="CIV-R6-gWS" secondAttribute="bottom" id="Vao-Kg-3tK"/>
                             <constraint firstItem="iCY-wS-5L2" firstAttribute="top" secondItem="9k5-bL-M0a" secondAttribute="top" id="WDH-fi-c7F"/>
                             <constraint firstItem="Mnp-fM-uyR" firstAttribute="centerX" secondItem="9k5-bL-M0a" secondAttribute="centerX" id="fuG-cS-y8d"/>
                             <constraint firstAttribute="bottom" secondItem="iCY-wS-5L2" secondAttribute="bottom" id="gQJ-p6-S82"/>
+                            <constraint firstItem="s2F-jn-fLh" firstAttribute="centerX" secondItem="9k5-bL-M0a" secondAttribute="centerX" id="i9C-Ob-OTt"/>
                             <constraint firstItem="Mnp-fM-uyR" firstAttribute="top" secondItem="CIV-R6-gWS" secondAttribute="top" constant="48" id="noF-l7-9No"/>
                             <constraint firstItem="CIV-R6-gWS" firstAttribute="trailing" secondItem="iCY-wS-5L2" secondAttribute="trailing" id="u6J-WC-uI4"/>
                         </constraints>
