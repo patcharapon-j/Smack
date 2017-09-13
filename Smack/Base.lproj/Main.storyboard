@@ -142,21 +142,37 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="workspace-desk-from-above" translatesAutoresizingMaskIntoConstraints="NO" id="iCY-wS-5L2">
-                                <rect key="frame" x="-1275" y="0.0" width="1650" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cab-us-ygl">
-                                <rect key="frame" x="139" y="188" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cab-us-ygl">
+                                <rect key="frame" x="32" y="205.5" width="311" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="placeholderFontScale">
+                                        <real key="value" value="18"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3jZ-fM-V0D">
-                                <rect key="frame" x="139" y="231" width="97" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <nil key="textColor"/>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3jZ-fM-V0D">
+                                <rect key="frame" x="32" y="251.5" width="311" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="0.25" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="placeholderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderInactiveColor">
+                                        <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderActiveColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qxt-kc-GwP">
                                 <rect key="frame" x="164" y="308" width="46" height="30"/>
@@ -184,11 +200,18 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="s2F-jn-fLh" firstAttribute="top" secondItem="Mnp-fM-uyR" secondAttribute="bottom" constant="-8" id="6Zv-Fe-taK"/>
+                            <constraint firstItem="3jZ-fM-V0D" firstAttribute="leading" secondItem="CIV-R6-gWS" secondAttribute="leading" constant="32" id="EoX-29-raZ"/>
+                            <constraint firstItem="CIV-R6-gWS" firstAttribute="trailing" secondItem="cab-us-ygl" secondAttribute="trailing" constant="32" id="L62-SQ-QoJ"/>
                             <constraint firstItem="iCY-wS-5L2" firstAttribute="bottom" secondItem="CIV-R6-gWS" secondAttribute="bottom" id="Vao-Kg-3tK"/>
                             <constraint firstItem="iCY-wS-5L2" firstAttribute="top" secondItem="9k5-bL-M0a" secondAttribute="top" id="WDH-fi-c7F"/>
+                            <constraint firstItem="CIV-R6-gWS" firstAttribute="trailing" secondItem="3jZ-fM-V0D" secondAttribute="trailing" constant="32" id="avn-e5-HI2"/>
+                            <constraint firstItem="3jZ-fM-V0D" firstAttribute="top" secondItem="cab-us-ygl" secondAttribute="bottom" constant="16" id="dGf-Lw-rVF"/>
                             <constraint firstItem="Mnp-fM-uyR" firstAttribute="centerX" secondItem="9k5-bL-M0a" secondAttribute="centerX" id="fuG-cS-y8d"/>
+                            <constraint firstItem="cab-us-ygl" firstAttribute="top" secondItem="s2F-jn-fLh" secondAttribute="bottom" constant="48" id="gIb-je-g6w"/>
                             <constraint firstAttribute="bottom" secondItem="iCY-wS-5L2" secondAttribute="bottom" id="gQJ-p6-S82"/>
                             <constraint firstItem="s2F-jn-fLh" firstAttribute="centerX" secondItem="9k5-bL-M0a" secondAttribute="centerX" id="i9C-Ob-OTt"/>
+                            <constraint firstItem="cab-us-ygl" firstAttribute="leading" secondItem="CIV-R6-gWS" secondAttribute="leading" constant="32" id="jD5-Aw-w4f"/>
+                            <constraint firstItem="iCY-wS-5L2" firstAttribute="leading" secondItem="9k5-bL-M0a" secondAttribute="leading" id="ln0-qh-SZz"/>
                             <constraint firstItem="Mnp-fM-uyR" firstAttribute="top" secondItem="CIV-R6-gWS" secondAttribute="top" constant="48" id="noF-l7-9No"/>
                             <constraint firstItem="CIV-R6-gWS" firstAttribute="trailing" secondItem="iCY-wS-5L2" secondAttribute="trailing" id="u6J-WC-uI4"/>
                         </constraints>

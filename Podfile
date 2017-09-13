@@ -10,5 +10,6 @@ target 'Smack' do
   pod 'SwiftyJSON'
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
   pod 'Socket.IO-Client-Swift'
+  pod 'LGButton'
 
 end
