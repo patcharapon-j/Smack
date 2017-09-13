@@ -8,6 +8,7 @@ target 'Smack' do
   # Pods for Smack
   pod 'Alamofire'
   pod 'SwiftyJSON'
-  pod 'SlideMenuControllerSwift'
+  pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+  pod 'Socket.IO-Client-Swift'
 
 end

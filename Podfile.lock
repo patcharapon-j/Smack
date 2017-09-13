@@ -1,18 +1,35 @@
 PODS:
   - Alamofire (4.5.0)
-  - SlideMenuControllerSwift (3.0.2)
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - Socket.IO-Client-Swift (11.1.1):
+    - StarscreamSocketIO (~> 8.0.4)
+  - StarscreamSocketIO (8.0.4)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire
-  - SlideMenuControllerSwift
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - Socket.IO-Client-Swift
   - SwiftyJSON
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
-  SlideMenuControllerSwift: 16001e1fd9963fd089fa6c91dbe18d4c148f0ce9
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  Socket.IO-Client-Swift: 2e3a9602edf9d6e8d0b6869cf4f6014c7ca2924f
+  StarscreamSocketIO: 06614e7dad097dccee071a33550f1d775524c9b4
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: f97392e73d9924e26ca8933547e401ec8be3d6b3
+PODFILE CHECKSUM: a5bfb01b9abbb50102d87e927163b562ca1f318f
 
 COCOAPODS: 1.2.0

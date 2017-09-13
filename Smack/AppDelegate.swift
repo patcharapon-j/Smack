@@ -8,7 +8,6 @@
 
 import UIKit
 import CoreData
-import SlideMenuControllerSwift
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
