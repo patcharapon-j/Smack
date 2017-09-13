@@ -3,18 +3,18 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - LGButton (1.0.2)
   - Socket.IO-Client-Swift (11.1.1):
     - StarscreamSocketIO (~> 8.0.4)
   - StarscreamSocketIO (8.0.4)
   - SwiftyJSON (3.1.4)
-  - TextFieldEffects (1.3.3)
 
 DEPENDENCIES:
   - Alamofire
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - LGButton
   - Socket.IO-Client-Swift
   - SwiftyJSON
-  - TextFieldEffects
 
 EXTERNAL SOURCES:
   ChameleonFramework:
@@ -28,11 +28,11 @@ CHECKOUT OPTIONS:
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  LGButton: 44ce49b10deb84a2a8bd6fe5c763a65ff78a3180
   Socket.IO-Client-Swift: 2e3a9602edf9d6e8d0b6869cf4f6014c7ca2924f
   StarscreamSocketIO: 06614e7dad097dccee071a33550f1d775524c9b4
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
-  TextFieldEffects: 8706f53525f1ce51c8921b7af32237caab50c467
 
-PODFILE CHECKSUM: 99d2493165743795ba9aa5f74989b9e2e249b071
+PODFILE CHECKSUM: 08695f7f469486aeee2203afabb29ef84fe7140d
 
 COCOAPODS: 1.2.0
