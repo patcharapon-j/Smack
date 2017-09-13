@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import ChameleonFramework
 
 class ChannelViewController: UIViewController {
 
@@ -20,6 +21,7 @@ class ChannelViewController: UIViewController {
         self.navigationController?.navigationBar.prefersLargeTitles = true
         self.navigationItem.largeTitleDisplayMode = .always
         self.navigationItem.title = "Channels"
+        self.navigationController?.navigationBar.barTintColor = UIColor(gradientStyle:UIGradientStyle.leftToRight, withFrame: self.view.bounds, andColors:[FlatSkyBlue(), FlatBlueDark()])
     }
 
 }
