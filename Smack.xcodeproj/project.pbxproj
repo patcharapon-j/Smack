@@ -11,6 +11,7 @@
 		BAA023101F6951D80044C5BE /* ChannelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0230F1F6951D80044C5BE /* ChannelViewController.swift */; };
 		BAA023151F6963AA0044C5BE /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA023141F6963AA0044C5BE /* AccountViewController.swift */; };
 		BAA023191F6967E10044C5BE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA023181F6967E10044C5BE /* LoginViewController.swift */; };
+		BAA0231B1F697BB90044C5BE /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAA0231A1F697BB90044C5BE /* SignUpViewController.swift */; };
 		BACA78901F694BAD009FAE02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACA788F1F694BAD009FAE02 /* AppDelegate.swift */; };
 		BACA78951F694BAD009FAE02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BACA78931F694BAD009FAE02 /* Main.storyboard */; };
 		BACA78981F694BAD009FAE02 /* Smack.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BACA78961F694BAD009FAE02 /* Smack.xcdatamodeld */; };
@@ -26,6 +27,7 @@
 		BAA023111F6952870044C5BE /* icons8-Menu Filled-500.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icons8-Menu Filled-500.png"; sourceTree = "<group>"; };
 		BAA023141F6963AA0044C5BE /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		BAA023181F6967E10044C5BE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BAA0231A1F697BB90044C5BE /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		BACA788C1F694BAD009FAE02 /* Smack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACA788F1F694BAD009FAE02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BACA78941F694BAD009FAE02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				BAA0230F1F6951D80044C5BE /* ChannelViewController.swift */,
 				BAA023141F6963AA0044C5BE /* AccountViewController.swift */,
 				BAA023181F6967E10044C5BE /* LoginViewController.swift */,
+				BAA0231A1F697BB90044C5BE /* SignUpViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAA023191F6967E10044C5BE /* LoginViewController.swift in Sources */,
+				BAA0231B1F697BB90044C5BE /* SignUpViewController.swift in Sources */,
 				BACA78901F694BAD009FAE02 /* AppDelegate.swift in Sources */,
 				BAA023151F6963AA0044C5BE /* AccountViewController.swift in Sources */,
 				BAA0230E1F6951C80044C5BE /* ChatViewController.swift in Sources */,
