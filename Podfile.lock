@@ -1,21 +1,18 @@
 PODS:
   - Alamofire (4.5.0)
-  - Socket.IO-Client-Swift (11.1.1):
-    - StarscreamSocketIO (~> 8.0.4)
-  - StarscreamSocketIO (8.0.4)
+  - SlideMenuControllerSwift (3.0.2)
   - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire
-  - Socket.IO-Client-Swift
+  - SlideMenuControllerSwift
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: f28cdffd29de33a7bfa022cbd63ae95a27fae140
-  Socket.IO-Client-Swift: 2e3a9602edf9d6e8d0b6869cf4f6014c7ca2924f
-  StarscreamSocketIO: 06614e7dad097dccee071a33550f1d775524c9b4
+  SlideMenuControllerSwift: 16001e1fd9963fd089fa6c91dbe18d4c148f0ce9
   SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 411372c012e72cc6f8db344e5ea87483c5d44c12
+PODFILE CHECKSUM: f97392e73d9924e26ca8933547e401ec8be3d6b3
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0
